@@ -20,3 +20,12 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/store', function () {
+
+    $comics = config('comics');
+
+    // dd($comics);
+
+    return view('store', compact('comics'));
+});
