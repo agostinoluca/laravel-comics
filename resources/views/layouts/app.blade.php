@@ -7,12 +7,20 @@
 
     <title>Laravel Comics</title>
 
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 </head>
 
 <body class="antialiased">
+    @include('partials.header')
+    @include('partials.nav')
+    <main>
+        @yield('content')
+    </main>
+    @include('partials.footer')
 </body>
 
 </html>
