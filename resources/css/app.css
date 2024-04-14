@@ -252,3 +252,17 @@ p {
 }
 
 /* #endregion Header */
+
+/* #region Store */
+.card {
+    color: var(--dc-light);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* #endregion Store */
