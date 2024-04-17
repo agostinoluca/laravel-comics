@@ -19,7 +19,6 @@
 
 <body class="bg-secondary">
     @include('partials.header')
-    @include('partials.nav')
     <main>
         @yield('content')
     </main>

@@ -10,16 +10,9 @@
     <div class="bg-light p-3">
         <div class="container">
             <ul class="d-flex gap-3 justify-content-center">
-                <li>Lorem</li>
-                <li>Ea</li>
-                <li>Voluptates</li>
-                <li>Beatae</li>
-                <li>Quo</li>
-                <li>Accusamus</li>
-                <li>Tenetur</li>
-                <li>Ipsam</li>
-                <li>Temporibus</li>
-                <li>Accusamus</li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('shop') }}">Store</a></li>
+                <li><a href="{{ route('about') }}">About</a></li>
             </ul>
         </div>
     </div>
