@@ -34,12 +34,21 @@ p {
     --dc-lightgray: #717d7d;
 }
 
+.selected-dark {
+    padding: 3px;
+    box-shadow: 0 0 3px var(--dc-dark);
+}
+
 .text-center {
     text-align: center;
 }
 
 .text-light {
     color: var(--dc-light);
+}
+
+.text-primary {
+    color: var(--dc-primary);
 }
 
 .text-secondary {
@@ -60,6 +69,10 @@ p {
 
 .bg-light {
     background-color: var(--dc-light);
+}
+
+.bg-lightgray {
+    background-color: var(--dc-lightgray);
 }
 
 .btn {
@@ -251,6 +264,12 @@ p {
     background-size: cover;
 }
 
+.selected-nav {
+    color: var(--dc-primary);
+    border-bottom: 5px solid var(--dc-primary);
+    padding-bottom: 3.4rem;
+}
+
 /* #endregion Header */
 
 /* #region Store */
@@ -266,3 +285,13 @@ p {
 }
 
 /* #endregion Store */
+
+/* #region About */
+.about_page {
+    background-image: url('../images/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 2rem;
+}
+
+/* #endregion About */

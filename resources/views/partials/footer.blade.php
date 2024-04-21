@@ -2,7 +2,7 @@
     <div class="top_footer">
         <div class="container">
             <div class="row">
-                <div class="col-6 d-flex p-3 g-4 ">
+                <div class="col-6 d-flex p-3 gap-3 ">
                     <div>
                         <h4>DC COMICS</h4>
                         <ul>
@@ -27,7 +27,7 @@
                     <ul>
                         <h4>DC</h4>
                         <li><a href="#">Terms Of Use</a></li>
-                        <li><a href="#">Privacy policy (New)</a></li>
+                        <li><a href="#">Privacy policy</a></li>
                         <li><a href="#">Ad Choices</a></li>
                         <li><a href="#">Advertising</a></li>
                         <li><a href="#">Jobs</a></li>
@@ -62,22 +62,22 @@
         <div class="container p-3">
             <div class="row justify-content-between align-items-center">
                 <button>SIGN-UP NOW!</button>
-                <div class="d-flex align-items-center g-2">
+                <div class="d-flex align-items-center gap-3">
                     <span class="get_follower">FOLLOW US</span>
                     <a href="#">
-                        <img src="../assets/img/footer-facebook.png" alt="Facebook Icon">
+                        <img src={{ Vite::asset('resources/images/footer-facebook.png') }} alt="Facebook Icon">
                     </a>
                     <a href="#">
-                        <img src="../assets/img/footer-twitter.png" alt="Facebook Icon">
+                        <img src={{ Vite::asset('resources/images/footer-twitter.png') }} alt="Twitter Icon">
                     </a>
                     <a href="#">
-                        <img src="../assets/img/footer-youtube.png" alt="Facebook Icon">
+                        <img src={{ Vite::asset('resources/images/footer-youtube.png') }} alt="YouTube Icon">
                     </a>
                     <a href="#">
-                        <img src="../assets/img/footer-pinterest.png" alt="Facebook Icon">
+                        <img src={{ Vite::asset('resources/images/footer-pinterest.png') }} alt="Pinterest Icon">
                     </a>
                     <a href="#">
-                        <img src="../assets/img/footer-periscope.png" alt="Facebook Icon">
+                        <img src={{ Vite::asset('resources/images/footer-periscope.png') }} alt="Periscope Icon">
                     </a>
                 </div>
             </div>
@@ -91,12 +91,12 @@
 
 <style scoped>
     .top_footer {
-        background-image: url(../assets/img/footer-bg.jpg);
+        background-image: url({{ mix('resources/images/footer-bg.jpg') }});
         background-size: cover;
         background-repeat: no-repeat;
 
         & .logo_bg {
-            background-image: url(../assets/img/logo-bg.png);
+            background-image: url({{ mix('resources/images/dc-logo-bg.png') }});
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
